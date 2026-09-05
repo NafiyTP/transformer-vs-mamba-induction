@@ -1,0 +1,10 @@
+torch>=2.1
+numpy
+matplotlib
+transformer_lens
+einops
+tqdm
+# Optional, only if you switch from the minimal pure-PyTorch Mamba block to the
+# official CUDA-accelerated implementation later:
+# mamba-ssm
+# causal-conv1d
